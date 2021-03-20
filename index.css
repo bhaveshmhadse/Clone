@@ -66,8 +66,8 @@
   background-attachment: fixed;
   margin-top: 0rem;
   margin-bottom: -0.4rem;
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   box-shadow: 0rem 0rem 4rem black;
 }
 
@@ -90,13 +90,13 @@
 .content .play {
   position: absolute;
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding: 0.4rem 0.5rem;
   border-color: transparent;
   border-radius: 3rem;
   background-color: rgb(3, 151, 40);
-  left: 32%;
+  left: 30%;
   margin-top: 2rem;
   filter: drop-shadow(0.2rem 0.2rem 0.5rem black);
 }
