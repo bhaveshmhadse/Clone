@@ -211,6 +211,7 @@
 }
 .info {
   visibility: hidden;
+  border-radius: 2rem;
   z-index: 100;
   position: fixed;
   width: 50vw;
