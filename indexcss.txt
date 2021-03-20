@@ -1,0 +1,251 @@
+* {
+  text-align: center;
+  outline: none;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  position: fixed;
+  height: 3rem;
+  margin-top: 0rem;
+  z-index: 10;
+  filter: drop-shadow(0rem 0.2rem 0.2rem black);
+
+  /* width: 95vw; */
+  width: 100%;
+  background-color: rgb(38, 37, 37);
+}
+
+.navigation .img {
+  width: 52%;
+}
+
+.navigation .left-arrow {
+  color: white;
+  font-size: 0.2rem;
+  float: left;
+  /* float: left; */
+  left: 0;
+  margin: 0.5rem -0.5rem;
+  padding: -1rem -1rem;
+  border-color: transparent;
+  background-color: transparent;
+}
+.navigation .nav-button {
+  right: 0;
+  color: white;
+  font-size: 1.2rem;
+  float: right;
+  margin: 0.5rem 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-color: transparent;
+  background-color: transparent;
+}
+.section1 {
+  width: 100%;
+  height: auto;
+}
+.content {
+  /* margin: -0.5rem 0rem; */
+  /* background-color: rgb(17, 16, 16); */
+  background-color: rgb(38, 37, 37);
+
+  border-color: transparent;
+  height: 30vh;
+  padding-top: 4rem;
+  /* width: 100vw; */
+  width: 100%;
+}
+.content .songname {
+  font-size: 1.5rem;
+}
+.content img {
+  background-attachment: fixed;
+  margin-top: 0rem;
+  margin-bottom: -0.4rem;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0rem 0rem 4rem black;
+}
+
+.content p {
+  color: white;
+  padding: 1rem 1rem;
+  font-weight: 700;
+}
+.maincontent {
+  /* position: absolute; */
+  background-color: black;
+  height: 60vh;
+  /* width: 100vw; */
+  width: 100%;
+  margin: 0rem auto;
+
+  /* margin-top: 5rem; */
+}
+
+.content .play {
+  position: absolute;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.4rem 0.5rem;
+  border-color: transparent;
+  border-radius: 3rem;
+  background-color: rgb(3, 151, 40);
+  left: 32%;
+  margin-top: 1rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem black);
+}
+
+.content .play:hover {
+  filter: drop-shadow(0.1rem 0.1rem 0rem black);
+  transition: ease-in-out 300ms;
+}
+.maincontent .sep {
+  height: 4vh;
+}
+.maincontent .songs img {
+  width: 10%;
+  float: left;
+  /* margin: 0rem 1rem; */
+  /* margin-right: 0.5rem; */
+  /* margin-bottom: 0rem; */
+  margin: 0.2rem 0.5rem 0rem 0.8rem;
+}
+
+.maincontent .songs {
+  display: inline-block;
+  border-radius: 0.8rem;
+  background-color: black;
+  margin-top: 0.1rem;
+  margin-bottom: 0rem;
+  padding: 0.6rem 0rem;
+  width: 100%;
+}
+
+.maincontent .songs .songname {
+  /* text-align: left; */
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0rem 0.1rem;
+  margin-top: 0rem;
+  text-align: left;
+  margin-bottom: 0.25rem;
+}
+.maincontent .songs .singername {
+  color: rgb(141, 136, 136);
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 0rem 0.4rem;
+  text-align: left;
+  /* text-align: left; */
+}
+
+.maincontent .songs button {
+  right: 0;
+  color: white;
+  font-size: 1.2rem;
+  margin: -2.2rem 1.3rem;
+  padding: 0rem 0rem;
+  border-color: transparent;
+  background-color: transparent;
+  float: right;
+}
+
+.fixedsongs img {
+  width: 10%;
+  float: left;
+  /* margin: 0rem 1rem; */
+  /* margin-right: 0.5rem; */
+  /* margin-bottom: 0rem; */
+  margin: 0.2rem 0.5rem 0rem 0.8rem;
+}
+
+.fixedsongs {
+  visibility: hidden;
+  /* display: inline-block; */
+  position: fixed;
+  /* border-radius: 0.8rem; */
+  background-color: rgb(38, 37, 37);
+  margin-top: 0.1rem;
+  margin-bottom: 0rem;
+  padding: 0.6rem 0rem;
+  width: 100%;
+  bottom: 0%;
+  color: rgb(255, 255, 255);
+}
+
+.fixedsongs .songname {
+  /* text-align: left; */
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0rem 0.1rem;
+  margin-top: 0rem;
+  text-align: left;
+  margin-bottom: 0.25rem;
+}
+.fixedsongs .singername {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin: 0rem 0.4rem;
+  text-align: left;
+  /* text-align: left; */
+}
+
+.fixedsongs button {
+  right: 0;
+  color: white;
+  font-size: 1.2rem;
+  margin: -2.4rem 0.3rem;
+  padding: 0rem 0rem;
+  border-color: transparent;
+  background-color: transparent;
+  float: right;
+}
+.info {
+  visibility: hidden;
+  z-index: 100;
+  position: fixed;
+  width: 50vw;
+  height: 30vh;
+  top: 30%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgb(38, 37, 37);
+  filter: drop-shadow(0rem 0rem 1rem black);
+}
+
+.info p {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  /* float: left; */
+  text-align: left;
+  font-weight: 600;
+  color: white;
+}
+
+.info button {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.4rem 0.5rem;
+  border-color: transparent;
+  border-radius: 3rem;
+  background-color: rgb(3, 151, 40);
+  margin-top: -1rem;
+  /* text-align: right; */
+  float: right;
+  margin-right: 0.5rem;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem black);
+}
+button {
+  cursor: pointer;
+}
